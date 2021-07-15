@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<users>
+    <user id='1'>
+        <name>林克</name>
+        <age>18</age>
+        <gender>male</gender>
+    </user>
+
+    <user id='2'>
+        <name>zelda</name>
+        <age>17</age>
+        <gender>female</gender>
+    </user>
+</users>

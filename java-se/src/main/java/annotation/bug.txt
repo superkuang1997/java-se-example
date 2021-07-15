@@ -1,0 +1,9 @@
+sub方法存在异常
+异常的类型：java.lang.NullPointerException
+异常的原因：null
+--------
+div方法存在异常
+异常的类型：java.lang.ArithmeticException
+异常的原因：/ by zero
+--------
+本次测试一共出现2次异常
