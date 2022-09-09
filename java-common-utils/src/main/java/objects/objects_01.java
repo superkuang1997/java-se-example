@@ -5,8 +5,8 @@ import java.util.Objects;
 /**
  * @Classname objects_01
  * @Description TODO
- * @Date 2020/11/9 4:54 下午
- * @Created by admin
+ * @date 2020/11/9 4:54 下午
+ * @author by yorua
  */
 public class objects_01 {
     public static void main(String[] args) {

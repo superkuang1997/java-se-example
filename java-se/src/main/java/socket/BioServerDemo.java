@@ -26,7 +26,10 @@ public class BioServerDemo {
         System.out.println("服务启动成功");
         while (true) {
             Socket socket = serverSocket.accept();
-            System.out.println("连接成功");
+
+            System.out.println("连接成功!");
+            System.out.println(socket.getLocalAddress());
+            System.out.println(socket.getLocalSocketAddress());
             System.out.println("准备接收数据");
             byte[] bytes = new byte[1024];
             socket.getInputStream().read(bytes);

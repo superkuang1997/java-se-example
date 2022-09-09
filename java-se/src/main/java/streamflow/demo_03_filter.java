@@ -11,7 +11,6 @@ import java.util.stream.Stream;
 
 /**
  * @author by yorua
- * @description TODO
  * @date 2021/7/13 21:44
  */
 public class demo_03_filter {
@@ -20,10 +19,20 @@ public class demo_03_filter {
         List<Integer> list = Arrays.asList(6, 7, 3, 8, 1, 2, 9);
         Stream<Integer> stream = list.stream();
         stream.filter(x -> x > 7).forEach(System.out::println);
+
     }
 
     @Test
     public void test02() {
+        List<Integer> list = Arrays.asList(6, 7, 3, 8, 1, 2, 9, 7, 7);
+        Stream<Integer> stream = list.stream();
+        long count = stream.filter(x -> x == 7).count();
+        System.out.println(count);
+
+    }
+
+    @Test
+    public void test03() {
         List<Person> personList = new ArrayList<Person>();
         personList.add(new Person("Tom", 8900, 23, "male", "New York"));
         personList.add(new Person("Jack", 7000, 25, "male", "Washington"));

@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author by admin
+ * @author by yorua
  * @description 实现Comparable接口并重写compareTo方法
  * @date 2020/11/10 1:53 下午
  */

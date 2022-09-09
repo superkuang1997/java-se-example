@@ -8,8 +8,6 @@ import java.util.Iterator;
 
 /**
  * @author by yorua
- * @classname ArrayList_remove
- * @description TODO
  * @date 2021/3/13 22:52
  */
 public class ArrayList_remove {
@@ -72,5 +70,10 @@ public class ArrayList_remove {
             }
         }
         System.out.println(list);
+    }
+
+    @Test
+    public void test05() {
+
     }
 }

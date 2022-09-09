@@ -1,10 +1,10 @@
 package annotation;
 
 /**
- * @Classname anno_01
+ *
  * @Description TODO
- * @Date 2020/11/14 11:24 上午
- * @Created by admin
+ * @date 2020/11/14 11:24 上午
+ * @author by yorua
  */
 public class anno_01 {
     @Deprecated

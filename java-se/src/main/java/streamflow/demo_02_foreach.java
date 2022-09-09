@@ -8,7 +8,6 @@ import java.util.Optional;
 
 /**
  * @author by yorua
- * @description foreach
  * @date 2021/7/13 21:42
  */
 public class demo_02_foreach {

@@ -21,7 +21,7 @@ public class demo_06_reduce {
         Optional<Integer> sum1 = list.stream().reduce((x, y) -> x + y);
         // 求和方式2
         Optional<Integer> sum2 = list.stream().reduce(Integer::sum);
-        // 求和方式3
+        // 求和方式3 identity为基准
         Integer sum3 = list.stream().reduce(11, Integer::sum);
 
         // 求乘积
@@ -30,11 +30,11 @@ public class demo_06_reduce {
         // 求最大值方式1
         Optional<Integer> max = list.stream().reduce((x, y) -> x > y ? x : y);
         // 求最大值写法2
-        Integer max2 = list.stream().reduce(1, Integer::max);
+        Integer max2 = list.stream().reduce(0, Integer::max);
 
         System.out.println("list求和：" + sum1.get() + "," + sum2.get() + "," + sum3);
         System.out.println("list求积：" + product.get());
-        System.out.println("list求和：" + max.get() + "," + max2);
+        System.out.println("list求最大值：" + max.get() + "," + max2);
     }
 
     @Test
@@ -67,5 +67,13 @@ public class demo_06_reduce {
 
         System.out.println("工资之和：" + sumSalary.get() + "," + sumSalary2 + "," + sumSalary3);
         System.out.println("最高工资：" + maxSalary + "," + maxSalary2);
+    }
+
+    @Test
+    public void test03() {
+        String[] strings = new String[]{"aa", "bb", "cc"};
+        String s = Arrays.stream(strings).reduce((x, y) -> x + y).orElse(null);
+        System.out.println(s);
+
     }
 }

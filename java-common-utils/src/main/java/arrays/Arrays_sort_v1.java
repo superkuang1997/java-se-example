@@ -6,10 +6,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @Classname arrays_01
+ *
  * @Description TODO
- * @Date 2020/11/9 5:37 下午
- * @Created by admin
+ * @date 2020/11/9 5:37 下午
+ * @author by yorua
  */
 public class Arrays_sort_v1 {
     @Test
@@ -24,17 +24,9 @@ public class Arrays_sort_v1 {
         Arrays.sort(new int[0]);
     }
 
-    @Test
-    public void test02() {
-        Integer[] arr = {5, 2, 7, 4, 0, 25};
-        MyCompare mc = new MyCompare();
-        Arrays.sort(arr, mc);
-        System.out.println(Arrays.toString(arr));
-    }
-
     // 匿名内部类的方式
     @Test
-    public void test() {
+    public void test02() {
         Integer[] arr = {5, 2, 7, 4, 0, 25};
         Arrays.sort(arr, new Comparator<Integer>() {
             @Override
@@ -43,13 +35,5 @@ public class Arrays_sort_v1 {
             }
         });
         System.out.println(Arrays.toString(arr));
-    }
-}
-
-
-class MyCompare implements Comparator<Integer> {
-    @Override
-    public int compare(Integer o1, Integer o2) {
-        return o2 - o1;
     }
 }

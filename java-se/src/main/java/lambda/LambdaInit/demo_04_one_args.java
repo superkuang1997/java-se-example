@@ -3,8 +3,8 @@ package lambda.LambdaInit;
 /**
  * @Classname demo_07
  * @Description TODO
- * @Date 2020/11/11 1:36 下午
- * @Created by admin
+ * @date 2020/11/11 1:36 下午
+ * @author by yorua
  */
 public class demo_04_one_args {
     public static void main(String[] args) {

@@ -2,8 +2,6 @@ package wrapperclass;
 
 /**
  * @author by yorua
- * @classname Long_demo
- * @description TODO
  * @date 2021/3/2 19:46
  */
 public class Long_demo {

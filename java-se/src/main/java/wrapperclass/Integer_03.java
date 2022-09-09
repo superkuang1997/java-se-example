@@ -1,10 +1,9 @@
 package wrapperclass;
 
 /**
- * @Classname Integer_03
- * @Description 包装类的缓存
- * @Date 2020/11/9 4:17 下午
- * @Created by admin
+ * 包装类的缓存
+ * @date 2020/11/9 4:17 下午
+ * @author by yorua
  */
 public class Integer_03 {
     public static void main(String[] args) {

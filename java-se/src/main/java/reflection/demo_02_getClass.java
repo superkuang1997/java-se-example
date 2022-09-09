@@ -5,8 +5,8 @@ import org.junit.Test;
 /**
  * @Classname ref_01
  * @Description 获得class对象的几种方式
- * @Date 2020/11/12 5:28 下午
- * @Created by admin
+ * @date 2020/11/12 5:28 下午
+ * @author by yorua
  */
 public class demo_02_getClass {
 

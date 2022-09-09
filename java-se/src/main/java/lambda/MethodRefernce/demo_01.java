@@ -2,6 +2,7 @@ package lambda.MethodRefernce;
 
 public class demo_01 {
     public static void main(String[] args) {
+        System.out.println(123);
         // 使用lambda表达式
         printString(s -> System.out.println(s));
 

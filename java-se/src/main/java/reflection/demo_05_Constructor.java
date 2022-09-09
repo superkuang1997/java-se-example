@@ -7,8 +7,8 @@ import java.lang.reflect.Constructor;
 /**
  * @Classname ref_04
  * @Description 构造方法
- * @Date 2020/11/13 8:07 下午
- * @Created by admin
+ * @date 2020/11/13 8:07 下午
+ * @author by yorua
  */
 public class demo_05_Constructor {
     @Test

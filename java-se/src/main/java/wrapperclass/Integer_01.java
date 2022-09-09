@@ -1,10 +1,9 @@
 package wrapperclass;
 
 /**
- * @Classname Integer_01
- * @Description 装箱与拆箱
- * @Date 2020/11/9 3:59 下午
- * @Created by admin
+ * 装箱与拆箱
+ * @date 2020/11/9 3:59 下午
+ * @author by yorua
  */
 public class Integer_01 {
     public static void main(String[] args) {

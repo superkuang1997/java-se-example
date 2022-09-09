@@ -4,8 +4,6 @@ import java.util.*;
 
 /**
  * @author by yorua
- * @classname ArrayList_arrayToArrayList
- * @description TODO
  * @date 2020/12/27 4:03 下午
  */
 public class ArrayList_arrayToArrayList {

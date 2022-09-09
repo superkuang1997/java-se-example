@@ -19,6 +19,7 @@ public class TreeMap_demo_01 {
         map.put(1, "c");
         map.put(2, "d");
         System.out.println(map);
+        System.out.println(map.size());
     }
 
     @Test

@@ -8,8 +8,8 @@ import java.lang.reflect.Method;
 /**
  * @Classname testCheck
  * @Description 简单的测试框架
- * @Date 2020/11/14 10:36 下午
- * @Created by admin
+ * @date 2020/11/14 10:36 下午
+ * @author by yorua
  */
 
 // 当主方法执行后，会自动自行被检测的所有方法（加了Check注解的方法），判断方法是否有异常

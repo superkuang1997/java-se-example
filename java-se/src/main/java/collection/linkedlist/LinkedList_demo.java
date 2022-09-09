@@ -8,8 +8,8 @@ import java.util.List;
 /**
  * @Classname demo_LinkedList_01
  * @Description TODO
- * @Date 2020/11/10 11:50 上午
- * @Created by admin
+ * @date 2020/11/10 11:50 上午
+ * @author by yorua
  */
 public class LinkedList_demo {
 

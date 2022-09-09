@@ -12,6 +12,9 @@ import java.util.*;
  */
 public class demo_04_aggregate {
 
+    /**
+     * 对字符串数组进行处理
+     */
     @Test
     public void test01() {
         List<String> list = Arrays.asList("adnm", "admmt", "pot", "xbangd", "weoujgsd");
@@ -20,6 +23,27 @@ public class demo_04_aggregate {
         Optional<String> min = list.stream().max(Comparator.comparing(s -> -1 * s.length()));
         System.out.println("最短的字符串：" + min.get());
         System.out.println("最长的字符串：" + max.get());
+    }
+
+    /**
+     * 对int数组、Integer数组、List<Integer> 进行处理
+     */
+    @Test
+    public void test() {
+        // 1
+        int[] nums = new int[]{1, 3, 5, 9, 4};
+        OptionalInt max1 = Arrays.stream(nums).max();
+        // 2
+        Integer[] nums2 = new Integer[]{1, 3, 5, 9, 4};
+        Optional<Integer> max2 = Arrays.stream(nums2).max((v1, v2) -> v1 - v2);
+        // 3
+        List<Integer> list = Arrays.asList(1, 3, 5, 9, 4);
+        Optional<Integer> max3 = list.stream().max((v1, v2) -> v1 - v2);
+
+        System.out.println(max1.getAsInt());
+        System.out.println(max1.orElse(0));
+        System.out.println(max2.get());
+        System.out.println(max3.get());
     }
 
     @Test

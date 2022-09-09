@@ -6,8 +6,6 @@ import java.util.*;
 
 /**
  * @author by yorua
- * @classname Deque_test
- * @description TODO
  * @date 2021/2/22 18:14
  */
 public class Deque_demo_02 {

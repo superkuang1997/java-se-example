@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 
 /**
  * @author by yorua
- * @description TODO
  * @date 2021/7/11 11:36
  */
 public class demo_trans_array_to_list {
@@ -23,6 +22,14 @@ public class demo_trans_array_to_list {
         IntStream stream = Arrays.stream(nums);
         Stream<Integer> boxed = stream.boxed();
         List<Integer> list = boxed.collect(Collectors.toList());
+    }
+
+    @Test
+    public void test() {
+        int[] nums = new int[]{0, 5, 9, 11, 14, 18, 19, 21, 33, 17, 27};
+        String collect = Arrays.stream(nums).boxed().map(String::valueOf).collect(Collectors.joining());
+        System.out.println(collect);
+
     }
 
     @Test

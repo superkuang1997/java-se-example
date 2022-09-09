@@ -5,8 +5,8 @@ import java.util.function.Supplier;
 /**
  * @Classname supplier_01
  * @Description TODO
- * @Date 2020/11/11 3:16 下午
- * @Created by admin
+ * @date 2020/11/11 3:16 下午
+ * @author by yorua
  */
 public class supplier_01_get {
     public static void main(String[] args) {

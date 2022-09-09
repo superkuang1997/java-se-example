@@ -4,8 +4,6 @@ import org.junit.Test;
 
 /**
  * @author by yorua
- * @classname Integer_equals
- * @description TODO
  * @date 2020/12/24 10:34 上午
  */
 public class Integer_equals {

@@ -10,7 +10,7 @@ public class demo_03 {
         System.out.println(num2);
     }
 
-    public static int method(int number, Calcable calcable) {
-        return calcable.calAbs(number);
+    public static int method(int number, Callable callable) {
+        return callable.calAbs(number);
     }
 }

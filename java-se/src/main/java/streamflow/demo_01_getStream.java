@@ -5,10 +5,13 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 /**
  * 将集合转换成stream流
+ * @author yorua
+ * @date 2021/7/11 09:33
  */
 public class demo_01_getStream {
 
@@ -34,8 +37,11 @@ public class demo_01_getStream {
         int[] nums = {1, 3, 5, 6, 8};
         IntStream stream1 = Arrays.stream(nums);
 
+        long[] longNums = {3, 4, 5};
+        LongStream stream2 = Arrays.stream(longNums);
+
         String[] strings = {"aa", "bb", "cc"};
-        Stream<String> stream2 = Arrays.stream(strings);
+        Stream<String> stream3 = Arrays.stream(strings);
     }
 
     /**

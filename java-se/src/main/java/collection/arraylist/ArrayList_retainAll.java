@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *  ArrayList的retainAll方法，取交集
+ * ArrayList的retainAll方法，取交集
+ * @author by yorua
+ * @date 2021/2/19 21:02
  */
 
 public class ArrayList_retainAll {

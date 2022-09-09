@@ -2,8 +2,6 @@ package wrapperclass;
 
 /**
  * @author by yorua
- * @classname Integer_toHex
- * @description TODO
  * @date 2020/12/24 9:22 上午
  */
 public class Integer_toHex {

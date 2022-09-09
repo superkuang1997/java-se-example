@@ -5,8 +5,6 @@ import java.util.List;
 
 /**
  * @author by yorua
- * @classname demo_ArrayList_contains
- * @description TODO
  * @date 2021/2/19 16:47
  */
 public class ArrayList_contains {

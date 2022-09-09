@@ -8,8 +8,6 @@ import java.util.List;
 
 /**
  * @author by yorua
- * @classname ArrayList_toArray
- * @description TODO
  * @date 2021/2/19 21:02
  */
 public class ArrayList_toArray {

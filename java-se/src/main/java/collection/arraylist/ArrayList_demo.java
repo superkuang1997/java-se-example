@@ -2,13 +2,10 @@ package collection.arraylist;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author by yorua
- * @description TODO
  * @date 2020/12/27 3:46 下午
  */
 public class ArrayList_demo {
@@ -60,9 +57,12 @@ public class ArrayList_demo {
 
     @Test
     public void test04() {
-        List<String> list = new ArrayList<>();
-        System.out.println(list.get(0));  // error
-
+        List<String> list = new ArrayList<String>(){{
+            add("a");
+            add("b");
+            add("c");
+        }};
+        list.add("d");
     }
 
 }

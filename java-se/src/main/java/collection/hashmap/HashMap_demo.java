@@ -26,6 +26,7 @@ public class HashMap_demo {
     @Test
     public void test01() {
         System.out.println(map.get("诸葛亮"));
+        System.out.println(map.getOrDefault("陆逊", 98));
     }
 
     @Test
@@ -38,6 +39,7 @@ public class HashMap_demo {
     @Test
     public void test03() {
         map.getOrDefault("诸葛亮", null);
+        System.out.println(map.get("不存在的key")); // 空指针
     }
 
     @Test
@@ -47,7 +49,8 @@ public class HashMap_demo {
 
     @Test
     public void test05() {
-//        System.out.println(map.containsKey(1));
+        System.out.println(map.containsKey("老哥"));
+        System.out.println(map.get("老哥"));
     }
 
 }

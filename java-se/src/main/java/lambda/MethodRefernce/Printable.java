@@ -1,5 +1,7 @@
 package lambda.MethodRefernce;
 
+
+@FunctionalInterface
 public interface Printable {
-    public abstract void print(String s);
+    void print(String s);
 }

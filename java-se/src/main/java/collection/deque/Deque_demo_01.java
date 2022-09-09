@@ -26,6 +26,7 @@ public class Deque_demo_01 {
         deque.pop();
         deque.pop();
         deque.pop();
+        deque.isEmpty();
     }
 
 

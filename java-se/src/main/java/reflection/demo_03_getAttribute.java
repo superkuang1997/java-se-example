@@ -7,8 +7,8 @@ import java.lang.reflect.Field;
 /**
  * @Classname ref_02
  * @Description 获取成员变量
- * @Date 2020/11/13 8:02 下午
- * @Created by admin
+ * @date 2020/11/13 8:02 下午
+ * @author by yorua
  */
 
 public class demo_03_getAttribute {

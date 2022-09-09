@@ -25,11 +25,13 @@ public class demo_02 {
     public static void printString(Printable printable) {
         printable.print("Hello World");
     }
-}
 
-
-class MethodRefObject {
-    public void printUpperString(String string) {
-        System.out.println(string.toUpperCase());
+    static class MethodRefObject {
+        public void printUpperString(String string) {
+            System.out.println(string.toUpperCase());
+        }
     }
 }
+
+
+

@@ -7,8 +7,8 @@ import java.lang.reflect.Field;
 /**
  * @Classname ref_03
  * @Description 设置成员变量
- * @Date 2020/11/13 8:02 下午
- * @Created by admin
+ * @date 2020/11/13 8:02 下午
+ * @author by yorua
  */
 public class demo_04_setAttribute {
 
